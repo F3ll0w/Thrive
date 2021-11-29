@@ -1,0 +1,2 @@
+# Thrive
+Startup page
