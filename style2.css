@@ -1,0 +1,69 @@
+body, 
+html {
+	width: 100%;
+	height:  100%;
+	font-family: Raleway;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px grey;
+	color: whitesmoke;
+	border: solid;
+}
+
+
+.bg-image {
+  /* The image used */
+  background-image: url(bg2.jpg);
+  filter: blur(5px) opacity(98%) brightness(0.7);
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.bg-text {
+	font-size: 3em;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+h1, h3 {
+	text-transform: uppercase;
+}
+
+hr {
+	background-color: whitesmoke;
+	max-width: 500px;
+}
+
+footer {
+	
+}
+
+.btn {
+	font-weight: 700px;
+	border-radius: 300px;
+	font-weight: bold;
+}
+.btn-primary {
+	background-color: darkorange;
+	border-color: darkorange;
+}
+
+.btn:hover {
+	background-color: #FA5D00;
+	border-color: #FA5D00;
+	border-width: 4px;
+}
